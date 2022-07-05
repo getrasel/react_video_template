@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/p3lq40g3cpsess3481733101r5qv/public_html/videofront
+    - export DEPLOYPATH=/home3/getrasel/public_html/videofront
     - /bin/cp -R * $DEPLOYPATH
