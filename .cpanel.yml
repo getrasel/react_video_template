@@ -1,4 +1,5 @@
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home3/getrasel/public_html/videofront
+    - export DEPLOYPATH=/home/p3lq40g3r5qv/public_html/react_video_template
     - /bin/cp -R * $DEPLOYPATH
