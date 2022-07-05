@@ -1,0 +1,31 @@
+@use "../src/styles/partials/theme";
+@import "../src/styles/partials/color";
+
+
+.main{
+padding-top: 20px;
+background: $alabaster;
+}
+.video__container{
+    background: $black;
+    &--poster{
+        max-width: 850px;
+        margin: 0px auto;
+        display: block;
+        height: 450px;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+.item__container{
+    margin-top: 30px;
+}
+
+.nextvideo{
+    margin-bottom: 0px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: $Silver;
+    font-weight: 600;
+  }
